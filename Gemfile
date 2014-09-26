@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-gem 'rails', '4.1.4'
+gem 'rails', '4.1.6'
 gem 'sqlite3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -24,12 +24,13 @@ gem 'browser'
 gem 'respond-rails'
 
 # Sass
+gem 'sass-rails', '>= 5.0.0.beta1'
+gem 'sass', '~> 3.4.5'
+gem 'compass-rails', '~> 2.0.0'
+gem 'oily_png', '1.1.1'
 gem 'modular-scale'
-gem 'sass-rails', git: 'git://github.com/machida/sass-rails.git', branch: 'sass3'
-gem 'compass', '~> 1.0.0.alpha.19'
-gem 'compass-rails', '~> 1.1.7'
 # gem 'oulu-rails', path: '../oulu-rails'
-gem 'oulu-rails', '~> 0.3.11', github: 'oulu/oulu-rails'
+gem 'oulu-rails', '~> 0.4.17', github: 'oulu/oulu-rails'
 
 group :development do
   gem 'quiet_assets'
